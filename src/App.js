@@ -1,7 +1,12 @@
 import React from "react";
+import AboutUs from "./pages/AboutUsPage";
 
 function App() {
-  return <div className="App">Start Movies</div>;
+  return (
+    <div className="App">
+      <AboutUs />
+    </div>
+  );
 }
 
 export default App;
